@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles_d_21stJan.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/e409e2c335.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#" style="font-weight: bolder"> IEEE DTU</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Competitions</a></li>
+                    <li><a href="#">Hackathons</a></li>
+                    <li><a href="#delhi-section">IEEE Delhi Section Awards</a></li>
+                    <li><a href="#">Rank Holders</a></li>
+                    <li><a href="#">Research Papers</a></li>
+
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+
+    </section>
+
+    <section class="about_us">
+        <div class="about-us">
+            <!-- just to make scrolling effect possible -->
+            <h2 class="myH2">About Us</h2>
+            
+            <p class="myP">
+
+                IEEE DTU Student Branch , under the aegis of IEEE Global, is the oldest student branch in Delhi Section with an illustrious history of over three decades. Under the invaluable guidance of Dr. J. Panda, IEEE DTU has emerged as one of the most active and
+                innovative student branches in India. IEEE DTU organizes a plethora of events around the year such as TECHWEEK, MICROHACK and the annual technical festival TROIKA to instil a scientific temperament in students and to cater to the needs
+                of their inquisitive nature. <span id="dots">...</span>
+
+                <span id="more">
+
+                IEEE DTU is also renowned for its publications- ECHO, a magazine for freshers, IOTA, the annual technical magazine, TRIGGER, the TROIKA souvenir, and The Troika Times. In the year 2012, one of the commendable
+                feats of IEEE DTU Student Branch was the organizing of ISSET (International Symposium on Standards in Engineering & Technology), which provided a platform for student researchers, besides academic and professional experts, to share and
+                exchange their ideas. IEEE DTU student members get a chance to be in touch with the latest technical information, research and career opportunities. Not only do they take part in several events, but also get a chance to organize them with
+                their young and capable hands. “Toil to attain thy heights”. By following this mantra with heart in work and mind in place, and feet firmly on ground, IEEE DTU is poised for a quantum leap forward.
+                </span>
+            </p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+            
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+    </script>
+
+
+
+    <!-- <br><br><br><br><br> -->
+
+    <section class="testimonials" class="article_container">
+        <ul>
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/me - Manali Biswas.jpg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Manali Biswas</p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Manali Biswas</p>
+
+                            <p class="person_name">Codess internship and hackathon</p>
+                            <p>Secured an internship in Microsoft through codess 2020(second year). Also, participated in Microsoft Hackathon 2020 which is a worldwide hackathon of Microsoft employees. It involved working on voice integration with a Teams
+                                bot.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/resume - 2K18_CO_176 KIRTI DABAS.jpeg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Kirti Dabas</p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Kirti Dabas</p>
+
+                            <p class="person_name">Codess internship and hackathon</p>
+                            <p>Secured an internship in Microsoft through codess 2020(second year). Also, participated in Microsoft Hackathon 2020 which is a worldwide hackathon of Microsoft employees. It involved working on voice integration with a Teams
+                                bot.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/WhatsApp Image 2020-10-01 at 3.23.58 AM - 2K18_CO_346 SHUBHAM KUMAR.jpeg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Shubham Kumar</p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Shubham Kumar</p>
+
+                            <p class="person_name">Universities Offer</p>
+
+                            <p>Internship and PPO from Sprinklr.<br> Hashcode AIR 22 <br> ACM ICPC Chennai Provincial 2019 National Rank 6 <br> HackerEarth October Circuits Long Challenge Global Rank 5, 2019".
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Saurabh Sir 2.jpeg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Saurabh Patel</p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Saurabh Patel</p>
+
+                            <p class="person_name">Hackathon</p>
+                            <p>Visa Global cybersecurity challenge - 2nd position.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Shivam Kumar.jpg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Shivan Kumar</p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Shivam Kumar</p>
+
+                            <p class="person_name">Hackathon</p>
+                            <p>1st Runner up in Fliplearn Hackathon 2020 organized by Fliplearn Education Pvt. Ltd.Winner in Game of Codes organised by IIIT Una.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Ishan Chaudhary.jpg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Ishan Chaudhary</p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+
+                            <p class="person_name">Ishan Chaudhary</p>
+                            <p class="person_name">Hackathon</p>
+
+                            <p>Won Smart India Hackathon - 2020.As a solution to our problem statement MK100, we designed a website buyfreshdtu.xyz and an android app that can act as a bridge between producers and consumers to increase transparency. We added
+                                real time negotiations through mobile computing. Stored supply chain information using block-chain.Our approach used advanced NLU algorithms(AWS Lex), speech recognition and multi-lingual support for better customer experience.We
+                                used deep learning techniques to help farmers get better price for their crops and facilitate credits to the farmers. COVID-19 has affected everyone and SIH was no different. For the first time SIH was held in complete
+                                online mode.Earlier SIH was supposed to take place in the month of may but due to nation wide lock-down it got postponed.Finally it took place in august , we were very tensed as it was clashing with the time when companies
+                                visit our campus for internships and placement but we remained focused and the whole team worked all day and night for 72 hours to achieve this success.Kudos to the SIH organizing team which made online hackathon possible
+                                with remarkable support. It was a great learning opportunity for all of us and for me it was a golden opportunity to work with the seniors and learn from them too.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="images/Achievements/Addy Sir.jpeg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Aditya Verma</p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Aditya Verma</p>
+
+                            <p class="person_name">Research Paper Publications</p>
+                            <p>Computation of Hopf Bifurcation points for Magnetic Levitation System- Published in Springer Booklet.Bifurcation Curves for Electrical DC Motors. Published in IEEE Xplore.Awarded J.K. Pal Memorial Award, 2020 and Outstanding
+                                Student Volunteer Award, 2019 by IEEE Delhi Section Award Committee.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Kumar Kartikeya.jpg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Kumar Kartikeya </p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Kumar Kartikeya </p>
+
+                            <p class="person_name">Research Paper Publications</p>
+                            <p>A few papers on control systems
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Vaibhav Srivastava.jpeg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Vaibhav Shrivastava </p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Vaibhav Shrivastava </p>
+
+                            <p class="person_name">Academic Achievement</p>
+                            <p>9.8 SGPA 2nd Sem
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Sonal Bera.png" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Sonal Bera </p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name"> Sonal Bera </p>
+
+                            <p class="person_name">Academic Achievement</p>
+                            <p>P.M. Foundation Fellowship – Awarded the fellowship for securing a rank among the top 10 performers in GCC among all participating candidates in the P.M Foundation Talent Search Exam and being the only 1 student to do so from
+                                Kuwait in the year.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Chitra Singla.jpg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Chitra Singla </p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Chitra Singla </p>
+
+                            <p class="person_name">Academic Achievement</p>
+                            <p>"Aggregate CGPA - 9.64 Sgpa - 9.7 (DR -5) Sgpa - 9.8 (DR -3)"
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="t_container">
+
+                    <div class="t_box">
+
+                        <div class="vanish">
+                            <div class="persons_image">
+                                <img id="person_pic" src="img/Mridul Gupta.jpeg" height="200px" width="600px">
+                            </div>
+                            <div>
+                                <p class="person_name"> Mridul Gupta </p>
+                            </div>
+                        </div>
+
+
+                        <div class="content">
+                            <p class="person_name">Mridul Gupta </p>
+
+                            <p class="person_name">Research Paper Publications</p>
+                            <p>"Name: Statistical Analysis of the Relation Between the Developmental Status of Nations and Their Banks’ NPA using Hypothesis Testing. Journal: International Journal of Management (Scopus Indexed) Issue: August, 2020 About:
+                                Analyzed the annual report of the banks of 14 developed and 15 developing nations to find the NPA ratio for 5 years. Applying Hypothesis Testing established a relationship between the developmental status of the nations
+                                and their banks’ NPA. Reaching to the result, a nations developmental status is indirectly related to it's banking system's NPA."
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+
+        <!-- XXXXX -->
+
+        <div class="divider" id="delhi-section" >
+            <div>
+                <h1>IEEE Delhi Section Awards</h1>
+                <h3>Award Winners</h3>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+
+
+        <section class="colored-section" id="testimonials">
+
+            <div id="testimonial-carousel" class="carousel slide" data-ride="false" >
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active container-fluid" id="info">
+                        <div class="car_border" style="height: 250px">
+                            <p class="person_name">Manmohan Mathur</p>
+                            <img class="testimonial-image" src="/images/manmohan.jpg" ALIGN="left">
+                            <p class="testimonial-text">I am an ambitious workaholic, but apart from that, pretty simple person.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item container-fluid" id="info">
+                        <div class="car_border" style="height: 250px">
+                            <p class="person_name">Aditya Verma</p>
+                            <img class="testimonial-image" src="images/Achievements/Addy Sir.jpeg" ALIGN="left">
+                            <p class="testimonial-text">Published paper in Springer Booklet - Computation of Hopf Bifurcation points for Magnetic Levitation System
+                                <br> Published in IEEE Xplore - Bifurcation Curves for Electrical DC Motors.
+                                <br> Awarded J.K. Pal Memorial Award, 2020 and Outstanding Student Volunteer Award, 2019 by IEEE Delhi Section Award Committee.
+                            </p>
+                        
+                        </div>
+                    </div>
+
+                    <div class="carousel-item container-fluid" id="info">
+                        <div class="car_border" style="height: 250px">
+                            <p class="person_name">Harshit Gupta</p>
+                            <img class="testimonial-image" src="images/Achievements/IMG_20191019_172717_084 - Harshit Gupta.jpg" ALIGN="left">
+                            <p class="testimonial-text">Selected for MITACS Globalink Research Internship at Ryerson University, Toronto, Canada
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="carousel-item container-fluid" id="info">
+                        <div class="car_border" style="height: 250px">
+                            <p class="person_name">Lavanisha Prasad</p>
+                            <img class="testimonial-image" src="images/lavanisha.jpg" ALIGN="left">
+                            <p class="testimonial-text">I am an ambitious workaholic, but apart from that, pretty simple person.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="carousel-item container-fluid" id="info">
+                        <div class="car_border" style="height: 250px">
+                            <p class="person_name">Shivam Kumar</p>
+                            <img class="testimonial-image" src="img/Shivam Kumar.jpg" ALIGN="left">
+                            <p class="testimonial-text">I can undoubtedly declare that the Smart India Hackathon 2020 was a life changing experience for all of us, and it could be possible only because of IEEE. It gave us the opportunity to work with excellent mentors, on actual
+                                industrial problems. Being an IEEE member provided us the required knowledge to build the full-stack proj and it also enabled us to learn and imbibe various associated skills like team bonding, management, solving the real-time
+                                issues and leadership. Each one of us worked to our full potential and the final result was indeed blissful.
+                            </p>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+        </section>
+
+
+
+        <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="scripts.js"></script>
+
+        <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+
+        <footer id="footer">
+
+
+            <i class="social-icon fa fa-twitter" aria-hidden="true"></i>
+            <i class="social-icon fa fa-facebook" aria-hidden="true"></i>
+            <i class="social-icon fa fa-instagram" aria-hidden="true"></i>
+            <i class="social-icon fa fa-envelope" aria-hidden="true"></i>
+
+            <p class="footer-font">© Copyright 2021</p>
+
+        </footer>
+
+</body>
+
+</html>
+
+
+</footer>
+
+</body>
+
+</html>
